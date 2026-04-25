@@ -1,0 +1,17 @@
+limits:
+  timer_balance_buffer: 250.0
+  speed_max_hdist: 2.5
+  elytra_max_hdist: 4.0
+  elytra_max_vdist: 5.0
+  elytra_bouncy_acceleration: 1.5
+  elytra_max_height_gain_without_rocket: true
+  entity_speed_max_hdist_normal: 1.0
+  entity_speed_max_hdist_ice: 4.0
+  entity_step_max_vdist: 1.1
+  fly_gravity_lenience: 0.04
+  fly_max_hover_ticks: 3
+  kick_threshold: 40
+modules:
+  block_entity_fly: true
+  strict_boat_fly: true
+  auto_kick: true

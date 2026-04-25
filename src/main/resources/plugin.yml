@@ -1,0 +1,8 @@
+name: _4AC
+version: 1.0
+# Исправлено: путь должен точно совпадать с вашим package + названием класса
+main: org.jj4970._4AC
+# Исправлено: для 1.21 в api-version точка обязательна
+api-version: '1.21'
+# Верно: это разрешает запуск на Folia
+folia-supported: true
