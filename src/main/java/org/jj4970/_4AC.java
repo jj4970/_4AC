@@ -380,7 +380,18 @@ public class _4AC extends JavaPlugin implements Listener {
                             || m.name().contains("DIODE") 
                             || m.name().contains("DAYLIGHT") 
                             || m.name().contains("LILY_PAD") 
-                            || m.name().contains("CARPET");
+                            || m.name().contains("CARPET")
+                            || m.name().contains("HEAD")
+                            || m.name().contains("SKULL")
+                            || m.name().contains("LANTERN")
+                            || m.name().contains("BELL")
+                            || m.name().contains("CONDUIT")
+                            || m.name().contains("BREWING")
+                            || m.name().contains("GRINDSTONE")
+                            || m.name().contains("LECTERN")
+                            || m.name().contains("CAKE")
+                            || m.name().contains("AMETHYST")
+                            || m.name().contains("DRIPSTONE");
                             
                     if (checkCollision) {
                         BoundingBox blockBox = b.getBoundingBox();
@@ -393,7 +404,7 @@ public class _4AC extends JavaPlugin implements Listener {
     }
 
     private boolean isOnEntity(Player p) {
-        BoundingBox box = p.getBoundingBox().clone().shift(0, -0.1, 0).expand(0.1, 0.0, 0.1);
+        BoundingBox box = p.getBoundingBox().clone().shift(0, -0.1, 0).expand(0.2, 0.0, 0.2);
         for (Entity e : p.getWorld().getNearbyEntities(box)) {
             if (e.getEntityId() != p.getEntityId()) {
                 if (!(e instanceof org.bukkit.entity.Item) && !(e instanceof org.bukkit.entity.ExperienceOrb) && !(e instanceof org.bukkit.entity.Projectile)) {
