@@ -24,4 +24,6 @@ _4ac создан для серверов в стиле 2b2t.
 
 ---
 
-## License [GNU General Public License v3.0]([https://choosealicense.com/licenses/mit/](https://www.gnu.org/licenses/gpl-3.0.html))
+## Лицензия
+
+Этот проект распространяется под лицензией [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
